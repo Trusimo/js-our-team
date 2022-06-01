@@ -41,7 +41,7 @@ const team = [
     }
 ]
 
-// stampo in console gli oggetti uno per uno
+// stampo in console e in HTML gli oggetti uno per uno
 for (let i = 0; i < team.length; i++) {
     const membro = team[i];
     console.log(membro.nome, membro.cognome + ", " + membro.posizione);
